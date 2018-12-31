@@ -11,11 +11,17 @@ namespace _2dgame
         public int x { get; set; }
         public int y { get; set; }
         public int size { get; set; }
+
         public FallingStone (int _x, int _y, int _size)
         {
             this.x = _x;
             this.y = _y;
             this.size = _size;
+        }
+        
+        public void Fly (int tick)
+        {
+            this.y -= 15 - (2 * tick);
         }
     }
 }
