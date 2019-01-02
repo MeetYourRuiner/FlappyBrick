@@ -82,7 +82,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="City.png" />
     <None Include="Resources\retry.png" />
     <None Include="Resources\Ice.png" />
     <None Include="Resources\Penguin.png" />
