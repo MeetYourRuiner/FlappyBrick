@@ -63,7 +63,7 @@ namespace _2dgame
             if (rnd.Next(0, 2) == 1)
                 y = 450 - height;
             else y = 0;
-            this.rectangle = new Rectangle(445, y, 30, height);
+            this.rectangle = new Rectangle(445, y, 90, height);
             this.defrectangle = new Rectangle(0, 0, 200, 400);
         }
         public void Shift(int speed)
