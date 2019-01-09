@@ -12,7 +12,6 @@ namespace _2dgame
 {
     public partial class Form1 : Form
     {
-        Form MainForm;
         List<Obstacle> Obstacles;
         int GameState = 0;
         int tick = 0;
@@ -25,13 +24,6 @@ namespace _2dgame
         public Form1()
         {
             InitializeComponent();
-        }
-
-        public Form1(Form form)
-        {
-            MainForm = form;
-            InitializeComponent();
-            MainForm.Hide();
         }
 
         private void timer1_Tick(object sender, EventArgs e)
